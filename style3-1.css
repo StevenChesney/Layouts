@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+header, footer {
+    border: 3px solid orange;
+    height: 100px;
+    clear: both;
+}
+
+.one {
+    border: 3px solid orange;
+    height: 300px;
+    width: 20%;
+    float: left;
+}
+
+.two {
+    border: 3px solid orange;
+    height: 300px;
+    width: 40%;
+    float: left;
+}
+
+
+@media screen and (max-width: 800px) {
+ 
+    section{
+        background: green;
+    }
+
+    .two{
+        display: none;
+    }
+}
